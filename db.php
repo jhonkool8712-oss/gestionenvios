@@ -1,7 +1,7 @@
 <?php
-$host = "localhost";
-$user = "root";
-$password = "";
+$host = "jhonatan1_gestión_usuarios";
+$user = "jhonatan1";
+$password = "clase123";
 $db = "gestion_envios";
 
 $conn = new mysqli($host, $user, $password, $db);
