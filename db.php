@@ -1,5 +1,5 @@
 <?php
-$host = "jhonatan1_gestión_usuarios";
+$host = "mysql-jhonatan1.alwaysdata.net";
 $user = "jhonatan1";
 $password = "clase123";
 $db = "jhonatan1_gestionenvios";
