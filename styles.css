@@ -1,0 +1,91 @@
+/* Fondo con imagen */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Formulario */
+.formulario {
+    margin-bottom: 30px;
+}
+
+.formulario input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.formulario button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #00c9ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover {
+    background: #92fe9d;
+    color: black;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255,255,255,0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: rgba(0,0,0,0.5);
+}
+
+tr:nth-child(even) {
+    background: rgba(255,255,255,0.05);
+}
+
+/* Botón eliminar */
+.btn-eliminar {
+    background: #ff4d4d;
+    border: none;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-eliminar:hover {
+    background: #ff1a1a;
+}
