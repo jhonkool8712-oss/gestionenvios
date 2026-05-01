@@ -1,6 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear envío</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
 <?php include("db.php"); ?>
 
 <h2>Crear envío</h2>
+
+<a href="index.html">Inicio</a> | <a href="listar.php">Ver envíos</a><br><br>
 
 <form method="POST">
     Código: <input type="text" name="codigo"><br>
@@ -23,3 +34,6 @@ if ($_POST) {
     header("Location: listar.php");
 }
 ?>
+</div>
+</body>
+</html>

@@ -1,10 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de envíos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
 <?php include("db.php"); ?>
 
 <h2>Lista de envíos</h2>
 
-<a href="crear.php">Nuevo envío</a><br><br>
+<a href="index.html">Inicio</a> | <a href="crear.php">Nuevo envío</a><br><br>
 
-<table border="1">
+<table>
 <tr>
     <th>ID</th>
     <th>Código</th>
@@ -31,3 +40,6 @@ while($row = $result->fetch_assoc()) {
 }
 ?>
 </table>
+</div>
+</body>
+</html>
